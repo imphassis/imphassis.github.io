@@ -1,0 +1,51 @@
+body {
+    background-color:rgba(255, 255, 255, 0.23);
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    }
+
+#start {
+    font-family: 'Chango', cursive;
+    text-align: center;
+    color:darkorchid
+    }
+
+#intro {
+    text-align: center;
+    font-family: 'Kufam', cursive;
+}
+#aboutme {
+    font-size: 1em;
+}
+
+.lista {
+    font-size: 1em;
+    }
+a:link{
+    text-decoration: none;
+    color:blueviolet;
+}
+h2 {
+    font-family: 'Kufam', cursive;
+    font-size: 25px;
+    }
+
+.contents {
+    font-size: 1em;
+    line-height: 1em;
+}
+
+.mypic {
+    border-radius:150px;
+    image-resolution: 300px;
+    width: 300px;
+}
+#linkedin {
+    image-resolution: 70px;
+    border-radius: 15px;
+}
+
+.introDiv {
+    border: 10px;
+    text-align: center;
+    }
