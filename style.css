@@ -1,27 +1,55 @@
 * {
   margin: 0;
 }
+
+.nav-bar {
+  background-color: blueviolet;
+  overflow: hidden;
+}
+.nav-bar a {
+  font-size: 20px;
+  float: right;
+  color: white;
+  text-align: left;
+  padding: 15px 15px;
+  text-decoration: none;
+  font-family: "Staatliches", cursive;
+}
 .header {
   background-image: url(/images/bg-header.jpg);
   background-size: cover;
   background-position: 100% 100%;
-  padding: 60px 30px 40px;
+  padding: 20px 20px 20px;
 }
+
 .header-content {
-  max-width: 300px;
+  max-width: 500px;
   text-align: center;
   padding: 20px;
   margin-left: 40px;
 }
-
 #start {
   color: white;
   font-family: "Amatic SC", cursive;
-  font-size: 80px;
+  font-size: 100px;
   margin-bottom: 10px;
 }
-
 #intro {
   color: white;
   font-family: "Kufam", cursive;
+}
+.content {
+  background-color: whitesmoke;
+}
+.block1 {
+  background-color: whitesmoke;
+  max-width: 600px;
+  padding: 30px;
+  text-align: justify;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.moreinfo {
+  padding: 30px;
 }
