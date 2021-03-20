@@ -1,45 +1,27 @@
-body {
-    background-color:rgba(211, 191, 191, 0.23);
-    font-family: 'Nunito', sans-serif;
-    font-size: 20px;
-     }
+* {
+  margin: 0;
+}
+.header {
+  background-image: url(/images/bg-header.jpg);
+  background-size: cover;
+  background-position: 100% 100%;
+  padding: 60px 30px 40px;
+}
+.header-content {
+  max-width: 300px;
+  text-align: center;
+  padding: 20px;
+  margin-left: 40px;
+}
 
 #start {
-    font-family: 'Chango', cursive;
-    color:darkorchid
-    }
+  color: white;
+  font-family: "Amatic SC", cursive;
+  font-size: 80px;
+  margin-bottom: 10px;
+}
 
 #intro {
-    font-family: 'Kufam', cursive;
+  color: white;
+  font-family: "Kufam", cursive;
 }
-
-.lista{
-    font-weight: bold;
-    text-align: justify;
-}
-a:link{
-    text-decoration: none;
-    color:blueviolet;
-}
-h2 {
-    font-family: 'Kufam', cursive;
-    font-size: 25px;
-    }
-
-.mypic {
-    border-radius:150px;
-    image-resolution: 300px;
-    width: 300px;
-}
-#linkedin {
-    image-resolution: 70px;
-    border-radius: 15px;
-}
-
-.introDiv {
-    border: 10px;
-    background-color: white;
-    padding-left:10%;
-    padding-right:10%;
-    text-align: center;
-    }
