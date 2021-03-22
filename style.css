@@ -3,7 +3,7 @@
 }
 
 .nav-bar {
-  background-color: blueviolet;
+  background-color: rgb(39, 39, 39);
   overflow: hidden;
 }
 .nav-bar a {
@@ -21,35 +21,40 @@
   background-position: 100% 100%;
   padding: 20px 20px 20px;
 }
-
 .header-content {
-  max-width: 500px;
-  text-align: center;
-  padding: 20px;
-  margin-left: 40px;
-}
-#start {
-  color: white;
-  font-family: "Amatic SC", cursive;
-  font-size: 100px;
-  margin-bottom: 10px;
-}
-#intro {
-  color: white;
+  margin-left: 20%;
   font-family: "Kufam", cursive;
+  color: white;
+}
+.header-content #hello {
+  font-family: "Amatic SC", cursive;
+  font-size: 3em;
+  margin-bottom: 10px;
+  text-align: left;
+}
+.header-content .title-name {
+  font-weight: bold;
+  font-size: 6em;
+}
+.header-content .intro-text {
+  font-size: 1.5em;
 }
 .content {
-  background-color: whitesmoke;
-}
-.block1 {
-  background-color: whitesmoke;
-  max-width: 600px;
-  padding: 30px;
+  color: white;
+  display: inline-block;
+  width: 33%;
+  padding: 30px 30px 30px;
   text-align: justify;
-  font-size: 20px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1em;
+  font-family: "Montserrat", sans-serif;
 }
-
 .moreinfo {
   padding: 30px;
+}
+.content-wraper {
+  background-color: rgb(46, 46, 46);
+}
+.content img {
+  /* image-resolution: 300px; */
+  height: 70px;
 }
