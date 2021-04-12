@@ -2,59 +2,88 @@
   margin: 0;
 }
 
-.nav-bar {
-  background-color: rgb(39, 39, 39);
-  overflow: hidden;
+body {
+  min-height: 100%;
+  background-color: rgb(46, 46, 46);
 }
-.nav-bar a {
-  font-size: 20px;
+
+#top-nav {
+  text-align: right;
   float: right;
-  color: white;
-  text-align: left;
-  padding: 15px 15px;
-  text-decoration: none;
-  font-family: "Staatliches", cursive;
+  top: 0;
+  width: 100%;
+  background-color: rgb(39, 39, 39);
+  font-size: 20px;
+  font-family: 'Staatliches', cursive;
+  padding: 10px;
 }
-.header {
+#top-nav a {
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.header-content {
   background-image: url(/images/bg-header.jpg);
   background-size: cover;
   background-position: 100% 100%;
   padding: 20px 20px 20px;
-}
-.header-content {
-  margin-left: 20%;
-  font-family: "Kufam", cursive;
+  font-family: 'Kufam', cursive;
   color: white;
 }
+
 .header-content #hello {
-  font-family: "Amatic SC", cursive;
+  font-family: 'Amatic SC', cursive;
   font-size: 3em;
   margin-bottom: 10px;
   text-align: left;
 }
+
 .header-content .title-name {
   font-weight: bold;
   font-size: 6em;
 }
+
 .header-content .intro-text {
   font-size: 1.5em;
 }
-.content {
+
+main {
+  text-align: justify;
+  padding: 30px;
   color: white;
+  font-family: 'Montserrat', sans-serif;
   display: inline-block;
   width: 33%;
-  padding: 30px 30px 30px;
-  text-align: justify;
-  font-size: 1em;
-  font-family: "Montserrat", sans-serif;
+  line-height: 150%;
+  font-weight: bold;
 }
-.moreinfo {
-  padding: 30px;
+
+.skills {
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
-.content-wraper {
-  background-color: rgb(46, 46, 46);
+
+.footer {
+  height: 60px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: rgb(10, 10, 10);
 }
-.content img {
-  /* image-resolution: 300px; */
-  height: 70px;
+
+#linkedin {
+  width: 40px;
+  padding: 10px;
+  display: inline-block;
+}
+
+#footer-info {
+  position: relative;
+  width: 140px;
+  padding: 10px;
+  display: inline-block;
+  bottom: 20px;
+  font-family: 'Staatliches', cursive;
+  color: white;
 }
