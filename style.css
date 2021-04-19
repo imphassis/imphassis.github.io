@@ -12,6 +12,7 @@ body {
 body {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 #top-nav {
@@ -19,15 +20,29 @@ body {
   justify-content: flex-end;
   top: 0;
   width: 100%;
+  height: 40px;
   background-color: rgb(39, 39, 39);
   font-size: 20px;
   font-family: 'Staatliches', cursive;
 }
 
+#a-content {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 #top-nav a {
+  display: flex;
+  justify-content: center;
+  border: 1px solid white;
+  width: 100px;
   color: white;
   text-decoration: none;
   padding: 5px;
+}
+
+#top-nav a:hover {
+  zoom: 1.1;
 }
 
 .header-content {
@@ -55,13 +70,27 @@ body {
   font-size: 1.5em;
 }
 
+.about-me {
+  border: 1px solid white;
+  width: 40%;
+  padding: 10px;
+}
+
+.skills {
+  border: 1px solid white;
+  width: 40%;
+  padding: 10px;
+}
+
 main {
-  text-align: justify;
   padding: 30px;
   color: white;
   font-family: 'Montserrat', sans-serif;
-  display: inline-block;
-  width: 33%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+
   line-height: 150%;
   font-weight: bold;
 }
@@ -75,18 +104,60 @@ main {
   display: flex;
   height: 60px;
   flex-direction: row;
-  flex-shrink: 0;
   justify-content: space-evenly;
   align-items: center;
   background: rgb(10, 10, 10);
 }
 
 #linkedin {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  transition: 1.5s;
+}
+
+#github {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+}
+
+#linkedin img {
   width: 40px;
+  height: 40px;
+}
+
+#linkedin img:hover {
+  zoom: 1.2;
+}
+
+#github img {
+  width: 40px;
+  height: 40px;
+}
+
+#github img:hover {
+  zoom: 1.2;
 }
 
 #footer-info {
-  width: 140px;
+  width: 200px;
+  height: 40px;
+  display: flex;
+  flex-wrap: nowrap;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
   font-family: 'Staatliches', cursive;
   color: white;
+}
+
+#footer-info p:hover {
+  zoom: 1.2;
 }
