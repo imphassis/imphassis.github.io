@@ -2,55 +2,107 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>PH Assis</title>
-    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Amatic+SC:wght@700&family=Bebas+Neue&family=Kufam:wght@500&family=Staatliches&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Amatic+SC:wght@700&family=Bebas+Neue&family=Kufam:wght@500&family=Staatliches&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>PH Assis</title>
   </head>
-  <header>
-    <nav id="top-nav">
-      <a href="#about-me" class="nav-item"> About me</a>
-      <a href="#skills" class="nav-item"> Abilities</a>
-      <a href="#myself" class="nav-item"> Myself</a>
-      <a href="#social" class="nav-item"> Social </a>
-    </nav>
-    <div class="header-content">
-      <h1 id="hello">Hello there!</h1>
-      <span class="intro-text">I'm</span><span class="title-name"> PH Assis </span><br />
-      <span class="intro-text"> Full Stack Developer Student</span>
-    </div>
-  </header>
-
   <body>
+    <header>
+      <nav id="top-nav">
+        <div id="a-content">
+          <a href="#about-me" class="nav-item"> About me</a>
+          <a href="#skills" class="nav-item"> Abilities</a>
+          <a href="#myself" class="nav-item"> Myself</a>
+          <a href="#social" class="nav-item"> Social </a>
+        </div>
+      </nav>
+      <div class="header-content">
+        <div>
+          <div>
+            <h1 id="hello">Hello there!</h1>
+          </div>
+          <span class="intro-text">I'm</span><span class="title-name"> PH Assis </span><br />
+          <span class="intro-text"> Full Stack Developer Student</span>
+        </div>
+        <div id="profile-pic-div">
+          <img id="profile-pic" src="/images/profile.jpg" />
+        </div>
+      </div>
+    </header>
     <main>
       <div class="about-me">
         <h2>About me</h2>
         <p>
-          I was born and raised in the beautiful city of Pancas, ES but today I live in Vitoria,
-          Espirito Santo. I'm graduated in Mechanical Engineering, but at the end of 2020 I decided
-          to migrate to IT area. With the hope that I will be able to do positive things to change
-          (to better) people's lives
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam, quo sapiente eligendi temporibus accusamus assumenda fuga aut minima molestiae enim odio, quas similique sequi sint,
+          adipisci libero illum voluptates dignissimos. Optio ut veniam laboriosam et accusamus iure error doloribus officiis, adipisci excepturi obcaecati accusantium corporis quia itaque ea quaerat
+          molestiae aliquam, voluptatem, nesciunt eaque doloremque hic suscipit reprehenderit impedit. Odio. Maxime doloremque sapiente, ipsum expedita distinctio natus minima quasi quibusdam dicta
+          accusantium! Nisi, dignissimos? Debitis minus, itaque similique et in rem quia nisi expedita. Rem non sequi accusantium itaque possimus!
         </p>
       </div>
       <div class="skills">
-        <h2>Skills</h2>
-        <ul>
-          Here are a few abilities that I find useful and that I developed
-          <br />across the years:
-        </ul>
-        <li class="lista">Comunication</li>
-        <li class="lista">Adaptability</li>
-        <li class="lista">Critical Tought</li>
-        <li class="lista">Emotional Balance</li>
-        <li class="lista"><strong>Criativity</strong></li>
+        <div>
+          <h2>My skills</h2>
+          Here are a few abilities that I'm learning at Trybe:
+        </div>
+        <div id="skill-badges">
+          <div class="badges-div">
+            <p>HTML</p>
+            <img src="/images/html-logo.png" alt="" class="skills-images" />
+          </div>
+          <div class="badges-div">
+            <p>CSS</p>
+            <img src="/images/css-logo.png" alt="" class="skills-images" />
+          </div>
+          <div class="badges-div">
+            <p>JAVASCRIPT</p>
+            <img src="/images/javaScript-logo.png" alt="" class="skills-images" />
+          </div>
+          <div class="badges-div">
+            <p>REACT</p>
+            <img src="/images/react-logo.png" alt="" class="skills-images" />
+          </div>
+          <div class="badges-div">
+            <p>RTL</p>
+            <img src="/images/rtl-logo.png" alt="" class="skills-images" />
+          </div>
+          <div class="badges-div">
+            <p>REDUX</p>
+            <img src="/images/redux-logo.png" alt="" class="skills-images" />
+          </div>
+        </div>
+      </div>
+      <div class="repository">
+        <div>
+          <h2>Here are some of my works</h2>
+          <ul>
+            <li>sd-011-project-lessons-learned</li>
+            <li>sd-011-project-meme-generator</li>
+            <li>sd-011-project-todo-list</li>
+            <li>sd-011-project-pixels-art</li>
+            <li>sd-011-project-color-guess</li>
+            <li>sd-011-project-mistery-letter</li>
+          </ul>
+        </div>
       </div>
     </main>
     <footer class="footer">
-      <a href="https://linkedin.com/in/pieit"><img src="/images/icon.png" id="linkedin" /></a>
-      <p id="footer-info">Developed by PH Assis</p>
+      <div id="linkedin">
+        <a id="linkedinAddress"><img src="/images/linkedinIcon.png" /></a>
+      </div>
+      <div id="github">
+        <a href="https://github.com/imphassis"><img src="/images/github.png" /></a>
+      </div>
+      <div id="footer-info">
+        <p id="footer-info">Developed by PH Assis</p>
+      </div>
     </footer>
   </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+    crossorigin="anonymous"
+  ></script>
+  <script src="script.js"></script>
 </html>
