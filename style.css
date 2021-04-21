@@ -7,6 +7,7 @@ html,
 body {
   background-color: rgb(46, 46, 46);
   height: 100%;
+  width: 100%;
 }
 
 body {
@@ -25,6 +26,7 @@ body {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
+  flex-basis: 400px;
 }
 
 .header-content div {
@@ -55,8 +57,11 @@ body {
 }
 
 #top-nav {
+  border: 1px solid green;
   display: flex;
-  justify-content: flex-end;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-self: center;
   top: 0;
   width: 100%;
   height: 40px;
@@ -66,14 +71,16 @@ body {
 }
 
 #a-content {
+  border: 1px solid red;
   display: flex;
   justify-content: space-evenly;
+  flex-basis: 400px;
 }
 
 #top-nav a {
   display: flex;
   justify-content: center;
-  width: 100px;
+  width: 80px;
   color: white;
   text-decoration: none;
   padding: 5px;
@@ -102,7 +109,7 @@ body {
 }
 
 main {
-  border-top: 5px solid rgb(0, 36, 114);
+  border-top: 3px solid rgb(0, 36, 114);
   border-bottom: 2px solid rgb(0, 80, 252);
   padding: 30px;
   color: white;
@@ -110,7 +117,7 @@ main {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
-  align-items: baseline;
+  align-items: center;
   line-height: 150%;
   font-weight: bold;
   flex-grow: 1;
@@ -118,14 +125,23 @@ main {
 }
 
 main:hover {
-  border-top: 2px solid rgb(0, 80, 252);
+  border-top: 7px solid rgb(0, 80, 252);
 }
 
 .about-me {
+  order: 1;
   width: 40%;
   padding: 10px;
   flex-basis: 400px;
+  border-bottom: 10px solid rgb(0, 36, 114);
+  border-top: 10px solid rgb(0, 36, 114);
+  border-radius: 5%;
+  transition: 0.5s;
+}
+
+.about-me:hover {
   border-bottom: 10px solid rgb(0, 80, 252);
+  border-top: 10px solid rgb(0, 80, 252);
 }
 
 .about-me h2 {
@@ -134,13 +150,14 @@ main:hover {
 }
 
 .skills {
+  order: 3;
   align-self: stretch;
   width: 40%;
   padding: 10px;
   flex-basis: 400px;
   border-bottom: 10px solid rgb(0, 36, 114);
   border-top: 10px solid rgb(0, 36, 114);
-  border-radius: 20%;
+  border-radius: 15%;
   transition: 0.5s;
 }
 .skills:hover {
@@ -151,23 +168,37 @@ main:hover {
 .skills h2 {
   text-align: center;
   margin-bottom: 10px;
+  padding: 10px;
+}
+
+.repository {
+  order: 2;
+  align-self: center;
+  padding: 10px;
+  flex-basis: 400px;
+  border-bottom: 10px solid rgb(0, 36, 114);
+  border-top: 10px solid rgb(0, 36, 114);
+  border-radius: 15%;
+  transition: 0.5s;
+  border-radius: 15%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+
+.repository:hover {
+  border-bottom: 10px solid rgb(0, 80, 252);
+  border-top: 10px solid rgb(0, 80, 252);
 }
 
 .repository h2 {
   text-align: center;
-  margin-bottom: 10px;
-}
-
-.repository {
-  flex-basis: 400px;
+  padding: 10px;
 }
 
 .repository li {
   list-style: none;
-}
-.repository ul {
-  background-color: rgb(97, 97, 97);
-  padding: 5px;
+  text-align: center;
 }
 
 .skills {
@@ -199,7 +230,7 @@ main:hover {
 }
 
 .badges-div:hover {
-  background-color: rgb(160, 160, 160);
+  background-color: rgb(46, 46, 46);
   border: 2px solid white;
   transform: scale(1.1);
 }
