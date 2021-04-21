@@ -129,7 +129,6 @@ main:hover {
 }
 
 .about-me {
-  order: 1;
   width: 40%;
   padding: 10px;
   flex-basis: 400px;
@@ -150,7 +149,6 @@ main:hover {
 }
 
 .skills {
-  order: 3;
   align-self: stretch;
   width: 40%;
   padding: 10px;
@@ -172,7 +170,6 @@ main:hover {
 }
 
 .repository {
-  order: 2;
   align-self: center;
   padding: 10px;
   flex-basis: 400px;
